@@ -5,50 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
-    <header>
-        <a href="./index.html"><img src="./img/Logo.svg" alt="Logo"></a>
-        <nav>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Services and prices</a></li>
-                <li><a href="">Barbers</a></li>
-                <li><a href="">Contacts</a></li>
+    <header class="header">
+        <a class="header-logo" href="./index.html"><img src="./img/Logo.svg" alt="Logo"></a>
+        <nav class="header-nav">
+            <ul class="header-list list">
+                <li><a class="header-link link" href="" >About</a></li>
+                <li><a class="header-link link" href="">Services and prices</a></li>
+                <li><a class="header-link link" href="">Barbers</a></li>
+                <li><a class="header-link link" href="">Contacts</a></li>
             </ul>
         </nav>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">Online booking</button>
+        <a class="header-tel" href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="header-btn btn" type="button">Online booking</button>
     </header>
     <main>
-        <section>
-            <p>A hair salon for men in Kyiv</p>
-            <h1>Barbershop</h1>
-            <p>We are experts in trendy men's haircuts.
+        <section class="hero">
+            <p class="sub-title pre-title">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title title">Barbershop</h1>
+            <p class="hero-text">We are experts in trendy men's haircuts.
             We work quickly, carefully and with style.</p>
-            <ul>
-                <li><a href="" rel="noopener noreferrer nofollower">Youtube</a></li>
-                <li><a href="" rel="noopener noreferrer nofollower">Instagram</a></li>
+            <ul class="hero-list list">
+                <li><a class="hero-link link" href="" rel="noopener noreferrer nofollower">Youtube</a></li>
+                <li><a class="hero-link link" href="" rel="noopener noreferrer nofollower">Instagram</a></li>
             </ul>
         </section>
-        <section>
-            <ul>
-                <li><img src="./img/img1.jpg" alt="barber trimming man's beard" width="270"></li>
-                <li><img src="./img/img2.jpg" alt="barber cutting man's hair" width="270"></li>
+        <section class="about">
+            <ul class="about-list">
+                <li class="about-item"><img src="./img/img1.jpg" alt="barber trimming man's beard" width="270"></li>
+                <li class="about-item"><img src="./img/img2.jpg" alt="barber cutting man's hair" width="270"></li>
             </ul>
-            <p>About</p>
-            <h2>Best barbershop in your city</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nesciunt?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fuga nam fugiat quis
+            <p class="about-pre-title">About</p>
+            <h2 class="about-title">Best barbershop in your city</h2>
+            <p class="about-after-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, nesciunt?</p>
+            <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fuga nam fugiat quis
             eos cum consequatur repudiandae, suscipit ducimus consequuntur at, corporis provident doloremque sequi!</p>
-            <button type="button">Online-booking</button>
+            <button class="about-btn btn" type="button">Online-booking</button>
         </section>
 
 ************************************************
         <!-- Services and prices -->
-        <section>
-            <p>Spend your time with the best masters</p>
-            <h2>Services and prices</h2>
+        <section class="prices">
+            <p class="prices-pre-title pre-title">Spend your time with the best masters</p>
+            <h2 class="prices-title title">Services and prices</h2>
             <ul>
                 <li>
                     <p>Men’s haircut from 300 uah.</p>
@@ -78,7 +84,7 @@
                     <p>Camouflage of gray hair from 200 uah.</p>
                 </li>
             </ul>
-            <button type="button">Online booking</button>
+            <button class="btn" type="button">Online booking</button>
         </section>
         <!-- Why people come to us? -->
         <section>
@@ -147,7 +153,7 @@
             </ul>
         </section>
         <section>
-            <h2 hidden>Portfolio</h2>
+            <h2 class="visually-hidden" >Portfolio</h2>
             <p>In Latin, "barba" means "beard"</p>
             <ul>
                 <li><img src="./img/Rectangle25.jpg" alt="beard1" width="270"></li>
@@ -160,7 +166,7 @@
             <h2>Online-booking</h2>
             <!-- form
             name phone message -->
-            <button type="button">send</button>
+            <button class="btn" type="button">send</button>
         </section>
         <section>
             <h2>Contacts</h2>
